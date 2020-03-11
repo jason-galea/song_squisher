@@ -1,1 +1,8 @@
-#ffmpeg
+
+
+
+# Simple, just changing bitrate. Appears to keep all metadata
+ffmpeg -i IN.flac -b:a 320k OUT.mp3 
+
+
+
